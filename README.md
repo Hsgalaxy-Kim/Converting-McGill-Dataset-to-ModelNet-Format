@@ -48,3 +48,26 @@ python McGill_convert.py
 ```
 
 Finally, you can use the dataloader for modelnet40_normal_resampled directly with McGill.
+
+(Train / Test split setting is "[Local Spectral Graph Convolution for Point Set Feature Learning](https://arxiv.org/abs/1803.05827)" in ECCV 2018. 
+
+```
+project-root/
+├── data/
+│   ├── airplane/
+│   │   ├── airplane_0000.txt
+│   │   ├── airplane_0001.txt
+│   │   ├── ...
+│   ├── ant/
+│   │   ├── ant_0000.txt
+│   │   ├── ant_0001.txt
+│   │   ├── ...
+│   ├── ...
+│   ├── teddy-bears/
+│   │   ├── teddy-bears_0000.txt
+│   │   ├── teddy-bears_0001.txt
+│   │   ├── ...
+|   ├── mcgill_shape_names.txt
+|   ├── train.txt
+|   ├── test.txt
+```
