@@ -47,7 +47,7 @@ Run the `McGill_convert.py`.
 python McGill_convert.py 
 ```
 
-Finally, you can use the dataloader for modelnet40_normal_resampled directly with McGill.
+Finally, you can use the dataloader for `modelnet40_normal_resampled` directly with McGill.
 
 (Train / Test split setting is "[Local Spectral Graph Convolution for Point Set Feature Learning](https://arxiv.org/abs/1803.05827)" in ECCV 2018. 
 
